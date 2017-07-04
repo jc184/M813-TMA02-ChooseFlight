@@ -1,7 +1,9 @@
 <%-- 
     Document   : flightpage
     Created on : 29-Jun-2017, 11:35:51
-    Author     : james
+    Alba Airways application M813-TMA02-ChooseFlight
+    @author james chalmers F6418079
+    @version 1.0
 --%>
 
 <%@page import="model.Flight"%>

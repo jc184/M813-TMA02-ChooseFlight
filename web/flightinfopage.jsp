@@ -1,7 +1,9 @@
 <%-- 
     Document   : flightinfopage
     Created on : 29-Jun-2017, 15:18:11
-    Author     : james
+    Alba Airways application M813-TMA02-ChooseFlight
+    @author james chalmers F6418079
+    @version 1.0
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

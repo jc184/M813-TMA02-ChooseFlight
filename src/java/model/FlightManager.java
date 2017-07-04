@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Alba Airways ChooseFlight application M813-TMA02-ChooseFlight
+ * Alba Airways application M813-TMA02-ChooseFlight
  * @author james chalmers F6418079
  * @version 1.0
  */

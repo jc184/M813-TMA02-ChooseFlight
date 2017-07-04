@@ -14,17 +14,18 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author james TODO
+ * Alba Airways application M813-TMA02-ChooseFlight
+ * @author james chalmers F6418079
+ * @version 1.0
  */
 public class FlightManagerTest {
-
 
     public FlightManagerTest() {
     }
 
     /**
      * Test of getFilteredFlights method, of class FlightManager.
+     *
      * @throws java.text.ParseException
      */
     @Test
@@ -43,6 +44,7 @@ public class FlightManagerTest {
 
     /**
      * Test of getAllFlights method, of class FlightManager.
+     *
      * @throws java.text.ParseException
      */
     @Test
@@ -68,6 +70,7 @@ public class FlightManagerTest {
 
     /**
      * Test of getFlight method, of class FlightManager.
+     *
      * @throws java.text.ParseException
      */
     @Test

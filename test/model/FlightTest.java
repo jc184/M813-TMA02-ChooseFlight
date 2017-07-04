@@ -13,7 +13,9 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author james
+ * Alba Airways application M813-TMA02-ChooseFlight
+ * @author james chalmers F6418079
+ * @version 1.0
  */
 public class FlightTest {
 
@@ -80,7 +82,7 @@ public class FlightTest {
     @Test
     public void testSetFlightDate() throws ParseException {
         System.out.println("setFlightDate");
-        
+
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         Date d = sdf.parse("2017-06-30 00:00:00");
         Date dt1 = sdf.parse("2017-06-30 10:00:00");
@@ -109,7 +111,7 @@ public class FlightTest {
     }
 
     /**
-     * Test of setLeaveDateTime method, of class Flight.
+     * Test of setLeaveDateTime method, of class Flight
      * @throws java.text.ParseException
      */
     @Test
@@ -117,7 +119,7 @@ public class FlightTest {
         System.out.println("setLeaveDateTime");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         Date leaveDateTime = sdf.parse("2017-06-30 10:00:00");
-        
+
         Date d = sdf.parse("2017-06-30 00:00:00");
         Date dt1 = sdf.parse("2017-06-30 10:00:00");
         Date dt2 = sdf.parse("2017-06-30 10:30:00");
@@ -315,8 +317,8 @@ public class FlightTest {
 
     /**
      * Test of setRouteRouteId method, of class Flight.
-     * @throws java.text.ParseException
-     * null because RouteRouteId is absent from the Constructor in Flight
+     * @throws java.text.ParseException null because RouteRouteId is absent from
+     * the Constructor in Flight
      */
     @Test
     public void testSetRouteRouteId() throws ParseException {

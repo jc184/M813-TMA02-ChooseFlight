@@ -16,7 +16,8 @@ import model.Flight;
 
 /**
  * Alba Airways application M813-TMA02-ChooseFlight
- * @author james chalmers F6418079
+  * https://github.com/jc184/M813-TMA02-ChooseFlight
+ * @author james chalmers Open University F6418079
  * @version 1.0
  */
 public class FlightDataStore {

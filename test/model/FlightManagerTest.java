@@ -15,8 +15,10 @@ import static org.junit.Assert.*;
 
 /**
  * Alba Airways application M813-TMA02-ChooseFlight
- * @author james chalmers F6418079
- * @version 1.0
+ * https://github.com/jc184/M813-TMA02-ChooseFlight
+ *
+ * @author james chalmers Open University F6418079
+ * @version 1.0 Test Case TC2
  */
 public class FlightManagerTest {
 

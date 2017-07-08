@@ -10,12 +10,14 @@ import org.junit.runners.Suite;
 
 /**
  *
-  * Alba Airways application M813-TMA02-ChooseFlight
- * @author james chalmers F6418079
- * @version 1.0
+ * Alba Airways application M813-TMA02-ChooseFlight
+ * https://github.com/jc184/M813-TMA02-ChooseFlight
+ *
+ * @author james chalmers Open University F6418079
+ * @version 1.0 Test Case TC2
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({model.FlightTest.class, model.FlightManagerTest.class})
 public class ChooseFlightTestSuite {
-    
+
 }

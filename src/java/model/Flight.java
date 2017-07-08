@@ -26,7 +26,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Alba Airways application M813-TMA02-ChooseFlight
- * @author james chalmers F6418079
+ * https://github.com/jc184/M813-TMA02-ChooseFlight
+ * @author james chalmers Open University F6418079
  * @version 1.0
  */
 @Entity
@@ -85,26 +86,21 @@ public class Flight implements Serializable {
     @JoinColumn(name = "Route_RouteId", referencedColumnName = "RouteId")
     @ManyToOne(optional = false)
     private Route routeRouteId;
-
+    
+    /*
+    Empty Constructor
+    */
     public Flight() {
     }
-
+    /*
+    Constructor
+    */
     public Flight(Integer flightId) {
         this.flightId = flightId;
     }
-
-//    public Flight(Integer flightId, Date flightDate, Date leaveDateTime, Date arrivalDateTime, String flightStatus, int gateNumber, int stops, int aircraftAircraftId, Route routeRouteId) {
-//        this.flightId = flightId;
-//        this.flightDate = flightDate;
-//        this.leaveDateTime = leaveDateTime;
-//        this.arrivalDateTime = arrivalDateTime;
-//        this.flightStatus = flightStatus;
-//        this.gateNumber = gateNumber;
-//        this.stops = stops;
-//        this.aircraftAircraftId = aircraftAircraftId;
-//        this.routeRouteId = routeRouteId;
-//    }
-
+    /*
+    Full Constructor
+    */
     public Flight(Integer flightId, Date flightDate, Date leaveDateTime, Date arrivalDateTime, String flightStatus, int gateNumber, int stops, int aircraftAircraftId) {
         this.flightId = flightId;
         this.flightDate = flightDate;

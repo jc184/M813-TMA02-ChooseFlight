@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package controller;
 
 import java.io.IOException;
@@ -23,11 +19,14 @@ import model.FlightManager;
 
 /**
  * Alba Airways application M813-TMA02-ChooseFlight
- * @author james chalmers F6418079
+  * https://github.com/jc184/M813-TMA02-ChooseFlight
+ * @author james chalmers Open University F6418079
  * @version 1.0
  */
 @WebServlet(name = "BookingServlet", urlPatterns = {"/BookingServlet"})
 public class BookingServlet extends HttpServlet {
+
+    private static final long serialVersionUID = 1L;
 
     FlightManager flightManager;
 

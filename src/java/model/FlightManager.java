@@ -5,7 +5,7 @@
  */
 package model;
 
-import DAO.FlightDataStore;
+import model.DAO.FlightDataStore;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
